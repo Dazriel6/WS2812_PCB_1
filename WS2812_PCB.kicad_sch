@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "df826232-1c66-4985-ab17-a9a892c49b71")
-	(paper "A4")
+	(paper "User" 150 100)
+	(title_block
+		(title "WS2812 PCB")
+		(date "2024-05-28")
+		(rev "1.0")
+		(company "Dan Angles")
+	)
 	(lib_symbols
 		(symbol "LED:WS2812B"
 			(pin_names
@@ -603,39 +609,9 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 58.42 80.01) (xy 62.23 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6161b146-8682-4474-aab8-9cbc999f2b79")
-	)
-	(wire
-		(pts
-			(xy 58.42 77.47) (xy 62.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d791548f-0b7e-4398-b131-2ffa9b966d9c")
-	)
-	(wire
-		(pts
-			(xy 58.42 82.55) (xy 62.23 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfc8572-0e79-4e1d-a306-0e28e342074a")
-	)
 	(global_label "5V"
 		(shape input)
-		(at 63.5 49.53 90)
+		(at 76.2 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -645,7 +621,7 @@
 		)
 		(uuid "23fcc0c1-3b7b-4efa-a6c0-befdc9a5fc56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 44.2467 90)
+			(at 76.2 20.1167 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,7 +633,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 83.82 80.01 180)
+		(at 41.91 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -667,7 +643,7 @@
 		)
 		(uuid "46c2d7ed-82fe-4ee5-8700-1a2ebcc618cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.5367 80.01 0)
+			(at 36.6267 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +655,7 @@
 	)
 	(global_label "DOUT"
 		(shape input)
-		(at 71.12 57.15 0)
+		(at 83.82 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -689,7 +665,7 @@
 		)
 		(uuid "51150e7b-0d59-4e13-b374-8804c8911732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.0038 57.15 0)
+			(at 91.7038 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +677,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 58.42 80.01 180)
+		(at 41.91 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -711,7 +687,7 @@
 		)
 		(uuid "758dc465-71b0-4685-8d0c-f424f2abd8b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.1367 80.01 0)
+			(at 36.6267 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +699,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 86.36 53.34 90)
+		(at 101.6 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -733,7 +709,7 @@
 		)
 		(uuid "948e2075-d182-4698-bbaa-2cfd2e92c59c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 48.0567 90)
+			(at 101.6 21.3867 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +721,7 @@
 	)
 	(global_label "DOUT"
 		(shape input)
-		(at 83.82 82.55 180)
+		(at 41.91 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -755,7 +731,7 @@
 		)
 		(uuid "b1ddc533-11ba-431c-833f-cee700fd34ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.9362 82.55 0)
+			(at 34.0262 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +743,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 83.82 77.47 180)
+		(at 41.91 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -777,7 +753,7 @@
 		)
 		(uuid "b35c1d05-b2cf-448b-bcaf-f2d7f7eb068e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.9643 77.47 0)
+			(at 35.0543 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +765,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 63.5 64.77 270)
+		(at 76.2 40.64 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -799,7 +775,7 @@
 		)
 		(uuid "d0a1b07f-755b-49d1-aa49-149abccf20bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 71.6257 90)
+			(at 76.2 47.4957 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,7 +787,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 55.88 57.15 180)
+		(at 68.58 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -821,7 +797,7 @@
 		)
 		(uuid "e94b6072-7b2e-433b-afd8-76ab10e4e719")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6895 57.15 0)
+			(at 62.3895 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +809,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 58.42 77.47 180)
+		(at 41.91 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -843,7 +819,7 @@
 		)
 		(uuid "ea300996-0a84-435e-a0a5-930a165db5df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5643 77.47 0)
+			(at 35.0543 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +831,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 58.42 82.55 180)
+		(at 41.91 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -865,7 +841,7 @@
 		)
 		(uuid "ee1a02d4-5372-4010-8da9-2d94fd709fd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2295 82.55 0)
+			(at 35.7195 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +853,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 86.36 60.96 270)
+		(at 101.6 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -887,7 +863,7 @@
 		)
 		(uuid "f6fcc623-e63c-4577-988a-82df74e23bf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 67.8157 90)
+			(at 101.6 41.1457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +875,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 86.36 57.15 0)
+		(at 101.6 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -908,7 +884,7 @@
 		(fields_autoplaced yes)
 		(uuid "25d6a261-e0cc-4127-b09e-a5e8587758b4")
 		(property "Reference" "C1"
-			(at 90.17 55.8799 0)
+			(at 105.41 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +893,7 @@
 			)
 		)
 		(property "Value" "C_0805_100nF"
-			(at 90.17 58.4199 0)
+			(at 105.41 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +902,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 87.3252 60.96 0)
+			(at 102.5652 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 57.15 0)
+			(at 101.6 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +920,7 @@
 			)
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 86.36 57.15 0)
+			(at 101.6 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +945,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Male")
-		(at 66.04 80.01 0)
+		(at 45.72 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -978,7 +954,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e04662c-8fb6-4361-928f-d2737cb418be")
 		(property "Reference" "J2"
-			(at 68.58 78.7399 0)
+			(at 48.26 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +963,7 @@
 			)
 		)
 		(property "Value" "IN"
-			(at 68.58 81.2799 0)
+			(at 48.26 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +972,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 67.31 85.09 0)
+			(at 46.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 71.12 0)
+			(at 45.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +990,7 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
-			(at 66.04 80.01 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1018,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 63.5 57.15 0)
+		(at 76.2 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1051,7 +1027,7 @@
 		(fields_autoplaced yes)
 		(uuid "60bc00f3-c859-46cc-9332-667ff1958f04")
 		(property "Reference" "D1"
-			(at 74.93 50.8314 0)
+			(at 87.63 26.7014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1035,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 74.93 53.3714 0)
+			(at 87.63 29.2414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1043,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 64.77 64.77 0)
+			(at 77.47 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1053,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 66.04 66.675 0)
+			(at 78.74 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1063,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 63.5 57.15 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1094,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Male")
-		(at 87.63 80.01 0)
+		(at 45.72 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1127,7 +1103,7 @@
 		(fields_autoplaced yes)
 		(uuid "b105fb24-2c4f-4a9e-8a87-655f41d9be91")
 		(property "Reference" "J1"
-			(at 90.17 78.7399 0)
+			(at 48.26 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1112,7 @@
 			)
 		)
 		(property "Value" "OUT"
-			(at 90.17 81.2799 0)
+			(at 48.26 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1121,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 88.9 85.09 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 71.12 0)
+			(at 45.72 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1139,7 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
-			(at 87.63 80.01 0)
+			(at 45.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
